@@ -19,7 +19,7 @@ export const HoverImage = ({
 }: HoverImageProps) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
 
-  const MotionLink = motion.create(Link);
+  const MotionLink = motion(Link);
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -33,7 +33,9 @@ export const HoverImage = ({
   const handleMouseMove = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
   ) => {
-    const rect = ref.current!.getBoundingClientRect();
+    if (!ref.current) return;
+
+    const rect = ref.current.getBoundingClientRect();
 
     const width = rect.width;
     const height = rect.height;
@@ -55,19 +57,20 @@ export const HoverImage = ({
       onMouseMove={handleMouseMove}
       initial="initial"
       whileHover="whileHover"
-      className="group relative flex items-center justify-between border-b border-white/10 py-4 transition-colors duration-500 md:py-6 md:px-16 hover:bg-white/5"
+      className="group relative flex items-center justify-between border-b border-[#3bb9ff33] py-4 transition-colors duration-500 md:py-6 md:px-16 hover:bg-[#3bb9ff11] rounded-lg"
     >
       <div>
         <div className="flex items-center justify-between">
-          <h4 className="relative z-10 block text-2xl sm:text-4xl font-semibold md:font-bold md:text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl tracking-tighter">
+          <h4 className="relative z-10 block text-2xl sm:text-4xl font-semibold md:font-bold md:text-[#7caaff] transition-colors duration-500 group-hover:text-[#a3c5ff] md:text-6xl tracking-tighter">
             {heading}
           </h4>
         </div>
-        <p className="relative z-10 mt-2 block md:text-base text-sm text-foreground/50 transition-colors duration-500 group-hover:text-neutral-50 pt-2">
+        <p className="relative z-10 mt-2 block md:text-base text-sm text-[#b4c5db] transition-colors duration-500 group-hover:text-[#a3c5ff] pt-2">
           {subheading}
         </p>
       </div>
 
+      {/* Image visible only on md and larger */}
       <motion.img
         style={{
           top,
@@ -81,8 +84,9 @@ export const HoverImage = ({
         }}
         transition={{ type: "spring" }}
         src={imgSrc}
-        className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64 max-md:hidden"
+        className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64 max-md:hidden border border-[#2563eb80]"
         alt={`Image representing a link for ${heading}`}
+        draggable={false}
       />
 
       <motion.div
@@ -99,7 +103,7 @@ export const HoverImage = ({
         transition={{ type: "spring" }}
         className="z-10 md:p-4 grid justify-items-end gap-2 max-md:hidden"
       >
-        <div className="border border-white/50 rounded-full py-2 px-4 text-white">
+        <div className="border border-[#3bb9ff80] rounded-full py-2 px-4 text-[#3bb9ff] bg-[#0e1a3f]">
           <TextReveal>Discuss Project!</TextReveal>
         </div>
       </motion.div>

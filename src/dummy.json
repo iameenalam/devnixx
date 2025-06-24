@@ -529,7 +529,7 @@
     {
       "name": "Web Design",
       "charge": "$300",
-      "desc": "Increase your site's visibility on search engines and attract more organic traffic.",
+      "desc": "Design clean, modern interfaces that engage users and work seamlessly across all devices.",
       "enabled": true,
       "_id": "65f1fd690556c3f887e9d94a",
       "image": {
@@ -538,9 +538,9 @@
       }
     },
     {
-      "name": "Website Development",
+      "name": "Web Development",
       "charge": "$600",
-      "desc": "Create engaging content and manage your social media profiles effectively.",
+      "desc": "Develop fast, secure websites with smooth functionality and great user experience.",
       "image": {
         "public_id": "portfolio3/1710357775748-9vwq4q.jpeg",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750611255/web-dev_pkquvk.avif"
@@ -551,7 +551,7 @@
     {
       "name": "App Development",
       "charge": "$399",
-      "desc": "Maximize your ad spend with highly targeted pay-per-click advertising campaigns.",
+      "desc": "Build mobile apps that are user-friendly, high-performing, and goal-driven.",
       "image": {
         "public_id": "1706290914024-725ytf",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750611529/app-dev_k88bki.png",
@@ -563,7 +563,7 @@
     {
       "name": "Wordpress Development",
       "charge": "$699",
-      "desc": "Develop a solid brand identity and strategy to stand out in a crowded market.",
+      "desc": "Create custom WordPress sites that are easy to manage and optimized for results.",
       "image": {
         "public_id": "portfolio3/1710357668346-ke8kgt.jpeg",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750611422/wordpress_twq6rk.png"
@@ -574,10 +574,10 @@
     {
       "name": "AI/ML Solutions",
       "charge": "$499",
-      "desc": "Attract and engage customers through valuable and relevant content.",
+      "desc": "Use AI and machine learning to automate tasks and make smarter decisions.",
       "image": {
         "public_id": "portfolio3/1710357680224-phijt.png",
-        "url": "https://scislak.com/wp-content/uploads/2021/02/AdobeStock_138950802-scaled-e1613643278818.jpeg"
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750764892/AI_ML_odaygd.webp"
       },
       "_id": "65b3e2f6b48589dfcae1843b",
       "enabled": true
@@ -585,10 +585,10 @@
     {
       "name": "Data Analytics",
       "charge": "$499",
-      "desc": "Reach your audience with targeted email campaigns that drive conversions.",
+      "desc": "Unlock insights from data to improve performance and guide your strategy.",
       "image": {
         "public_id": "portfolio3/1710357752227-6f5trs.jpeg",
-        "url": "https://www.outboundengine.com/wp-content/uploads/shutterstock_423422092.jpg"
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750764892/Analytics_txmdjp.webp"
       },
       "_id": "65b3e2a6b48589dfcae183f2",
       "enabled": true

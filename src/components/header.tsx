@@ -50,7 +50,7 @@ const Header = ({ social }: HeaderProps) => {
               lg:mt-3.5
             `}
           >
-            devnixx
+            <span style={{ color: "#FFFFFF" }}>devnixx</span>
             <span style={{ color: "#008EFF" }}>.</span>
           </div>
         </Link>
