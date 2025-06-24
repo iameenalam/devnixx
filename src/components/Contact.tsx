@@ -97,8 +97,8 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
       <span className="blob size-1/2 absolute top-20 right-0 blur-[100px] -z-10" />
       <div className="p-4 md:p-8 md:px-16">
         <SectionHeading className="">
-          <SlideIn className="text-white/40">Interested in talking,</SlideIn>{" "}
-          <br /> <SlideIn>let’s do it.</SlideIn>
+          <SlideIn className="text-white/40">Have a project in mind?</SlideIn>{" "}
+          <br /> <SlideIn>let’s discuss it.</SlideIn>
         </SectionHeading>
         <div className="grid md:grid-cols-2 gap-10 md:pt-16">
           <form className="space-y-4" onSubmit={handleSubmit}>
@@ -205,7 +205,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
       </div>
       <footer className="flex items-center justify-between md:px-8 px-2 py-4 text-sm">
         <Transition>
-          <div>&copy; {new Date().getFullYear()} Ameen Alam</div>
+          <div>&copy; {new Date().getFullYear()} devnixx.</div>
         </Transition>
         <Transition>
           <p>
