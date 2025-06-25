@@ -7,7 +7,6 @@ import Projects from "@/components/projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Testimonials from "@/components/testimonials";
-import Timeline from "@/components/Timeline";
 import { Portfolio } from "@/utils/interface";
 
 export default async function Home() {
@@ -20,7 +19,6 @@ export default async function Home() {
     skills,
     projects,
     social_handles,
-    timeline,
     email,
   } = portfolio as Portfolio;
 
@@ -29,11 +27,10 @@ export default async function Home() {
       <Header social={social_handles} />
       <Hero about={about} />
       <Brands />
-      {/* <About about={about} timeline={timeline} /> */}
       {/* <Skills skills={skills} /> */}
       <Projects projects={projects} />
       <Services services={services} />
-      {/* <Timeline timeline={timeline} /> */}
+      <About />
       <Testimonials testimonials={testimonials} />
       <Contact email={email} social_handle={social_handles} about={about} />
     </main>
