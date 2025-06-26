@@ -7,8 +7,18 @@ const CodingIcon = () => (
     <circle cx="16" cy="32" r="3" stroke="#38bdf8" strokeWidth="2.5" />
     <circle cx="24" cy="16" r="3" stroke="#38bdf8" strokeWidth="2.5" />
     <circle cx="32" cy="32" r="3" stroke="#38bdf8" strokeWidth="2.5" />
-    <path d="M24 19v6l-6 7" stroke="#38bdf8" strokeWidth="2.5" strokeLinecap="round" />
-    <path d="M24 19v6l6 7" stroke="#38bdf8" strokeWidth="2.5" strokeLinecap="round" />
+    <path
+      d="M24 19v6l-6 7"
+      stroke="#38bdf8"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+    />
+    <path
+      d="M24 19v6l6 7"
+      stroke="#38bdf8"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+    />
   </svg>
 );
 
@@ -32,8 +42,24 @@ const ShieldCheckIcon = () => (
 
 const SupportIcon = () => (
   <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
-    <rect x="8" y="16" width="14" height="10" rx="2" stroke="#38bdf8" strokeWidth="2.5" />
-    <rect x="26" y="16" width="14" height="10" rx="2" stroke="#38bdf8" strokeWidth="2.5" />
+    <rect
+      x="8"
+      y="16"
+      width="14"
+      height="10"
+      rx="2"
+      stroke="#38bdf8"
+      strokeWidth="2.5"
+    />
+    <rect
+      x="26"
+      y="16"
+      width="14"
+      height="10"
+      rx="2"
+      stroke="#38bdf8"
+      strokeWidth="2.5"
+    />
     <path
       d="M15 36v-3a3 3 0 013-3h12a3 3 0 013 3v3"
       stroke="#38bdf8"
@@ -67,45 +93,50 @@ const features = [
 ];
 
 const stats = [
-  { value: "5+", label: "years in the game" },
-  { value: "40+", label: "projects completed" },
-  { value: "$150k+", label: "in revenue" },
+  { value: "3+", label: "years in the game" },
+  { value: "20+", label: "projects completed" },
+  { value: "$50k+", label: "in revenue" },
   { value: "10+", label: "technologies" },
 ];
 
 const faqs = [
   {
-    question: "What is your development process?",
+    question: "What makes Devnixx different from other tech agencies?",
     answer:
-      "We follow a transparent, agile process: discovery, planning, design, development, QA, and deployment. You’re kept in the loop at every stage.",
+      "We focus on smart, human-centered solutions. Whether it's AI-powered features or simple user flows, everything we build is designed to actually be used and loved by real people.",
   },
   {
-    question: "How long does it take to build a React application?",
+    question: "Can Devnixx help modernize our outdated website or app?",
     answer:
-      "Project timelines vary by complexity, but most React apps take between 2 to 8 weeks from start to finish.",
+      "Yes! We specialize in redesigning and rebuilding legacy systems into modern, responsive, and scalable platforms that perform well and look great.",
   },
   {
-    question: "Do you offer post-launch support and maintenance?",
+    question: "Do you work with startups or only established businesses?",
     answer:
-      "Yes! We provide one month of free post-launch support, plus ongoing maintenance packages tailored to your needs.",
+      "We work with both. Whether you’re launching your first MVP or scaling an existing platform, we tailor our approach to match your business stage and goals.",
   },
   {
-    question: "Can you help with both frontend and backend development?",
+    question: "Can I be involved in the design and development process?",
     answer:
-      "Absolutely. We handle full-stack development, including both frontend (React, Next.js) and backend (Node.js, Express, and more).",
+      "Absolutely. We encourage collaboration and regularly share updates so your feedback shapes the project every step of the way.",
   },
   {
-    question: "What technologies do you use for backend development?",
+    question: "Do you offer AI integration even if we’re not a tech company?",
     answer:
-      "We use Node.js, Express, MongoDB, PostgreSQL, and other modern technologies based on project requirements.",
+      "Yes. We make AI practical even for non-tech businesses. From smart recommendations to data-driven automation, we’ll suggest what fits your workflow best.",
   },
   {
-    question: "Do you provide custom solutions tailored to our business needs?",
-    answer: "Yes, every project is custom-built to fit your business goals and workflows.",
+    question: "Will I own the final product and code?",
+    answer:
+      "100%. Once the project is complete and payment is cleared, you fully own the code, assets, and everything we’ve built for you.",
+  },
+  {
+    question: "What if I need help scaling after launch?",
+    answer:
+      "We’re here for the long run. From performance optimization to new feature rollouts, we offer post-launch support to help you grow smoothly.",
   },
 ];
 
-// Replace this with your preferred image URL
 const softwareHouseImage =
   "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750845689/software-house_zdrubj.png";
 
@@ -126,7 +157,14 @@ const About = () => {
               About <span className="text-[#38bdf8]">Devnixx</span>
             </h1>
             <p className="text-[#b4c5db] text-base sm:text-lg md:text-xl font-medium max-w-2xl leading-relaxed">
-              At <span className="text-[#38bdf8] font-bold">Devnixx</span>, we’re all about bringing your ideas to life through smart, user-friendly technology. Whether it’s eye-catching web design, smooth web development, or handy app development, we focus on creating experiences that people love to use. We also dive into the world of AI and machine learning to make your projects smarter and help you make better decisions. Plus, our data analytics give you clear insights to grow your business confidently.
+              At <span className="text-[#38bdf8] font-bold">Devnixx</span>,
+              we’re all about bringing your ideas to life through smart,
+              user-friendly technology. Whether it’s eye-catching web design,
+              smooth web development, or handy app development, we focus on
+              creating experiences that people love to use. We also dive into
+              the world of AI and machine learning to make your projects smarter
+              and help you make better decisions. Plus, our data analytics give
+              you clear insights to grow your business confidently.
             </p>
           </div>
           {/* Right: Image */}
@@ -154,11 +192,21 @@ const About = () => {
                 key={feature.title}
                 className={`
                   flex flex-col items-center text-center px-8 py-12
-                  ${idx === 1
-                    ? "bg-gradient-to-b from-[#18316b] via-[#2563eb] to-[#18316b]"
-                    : "bg-gradient-to-b from-[#141c2b] via-[#172a4a] to-[#141c2b]"}
-                  ${idx === 0 ? "rounded-t-3xl md:rounded-t-none md:rounded-l-3xl" : ""}
-                  ${idx === features.length - 1 ? "rounded-b-3xl md:rounded-b-none md:rounded-r-3xl" : ""}
+                  ${
+                    idx === 1
+                      ? "bg-gradient-to-b from-[#18316b] via-[#2563eb] to-[#18316b]"
+                      : "bg-gradient-to-b from-[#141c2b] via-[#172a4a] to-[#141c2b]"
+                  }
+                  ${
+                    idx === 0
+                      ? "rounded-t-3xl md:rounded-t-none md:rounded-l-3xl"
+                      : ""
+                  }
+                  ${
+                    idx === features.length - 1
+                      ? "rounded-b-3xl md:rounded-b-none md:rounded-r-3xl"
+                      : ""
+                  }
                   ${idx > 0 && idx < features.length - 1 ? "rounded-none" : ""}
                   border border-[#2563eb33]
                   min-h-[380px]
@@ -166,7 +214,9 @@ const About = () => {
                 tabIndex={0}
                 aria-label={feature.title}
               >
-                <span className="text-[#38bdf8] text-lg font-semibold mb-2">{`[${idx + 1}]`}</span>
+                <span className="text-[#38bdf8] text-lg font-semibold mb-2">{`[${
+                  idx + 1
+                }]`}</span>
                 <h3 className="text-white text-2xl md:text-3xl font-extrabold mb-4 leading-snug">
                   {feature.title}
                 </h3>
@@ -193,8 +243,10 @@ const About = () => {
                 <span className="text-white"> RESULTS</span>
               </h2>
               <p className="text-[#b4c5db] text-base md:text-lg font-medium max-w-xl">
-                Over 90% of our clients return to us! We ensure the quality of our work and are committed to your satisfaction.
-                You’re not just a customer; you’re our partner in solving your challenges with tenacity.
+                Over 90% of our clients return to us! We ensure the quality of
+                our work and are committed to your satisfaction. You’re not just
+                a customer; you’re our partner in solving your challenges with
+                tenacity.
               </p>
             </div>
             {/* Right: Stats grid */}
@@ -204,9 +256,11 @@ const About = () => {
                   key={stat.label}
                   className={`
                     flex flex-col items-center justify-center py-14 px-6
-                    ${idx === 1 || idx === 2
-                      ? "bg-gradient-to-b from-[#18316b] via-[#2563eb] to-[#18316b]"
-                      : "bg-gradient-to-b from-[#141c2b] via-[#172a4a] to-[#141c2b]"}
+                    ${
+                      idx === 1 || idx === 2
+                        ? "bg-gradient-to-b from-[#18316b] via-[#2563eb] to-[#18316b]"
+                        : "bg-gradient-to-b from-[#141c2b] via-[#172a4a] to-[#141c2b]"
+                    }
                     ${idx === 0 ? "rounded-tl-3xl" : ""}
                     ${idx === 1 ? "rounded-tr-3xl" : ""}
                     ${idx === 2 ? "rounded-bl-3xl" : ""}
