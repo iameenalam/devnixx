@@ -398,21 +398,27 @@
       "liveurl": "https://reeorg.com",
       "githuburl": "#",
       "title": "ReeOrg",
-      "metrics": "80% growth in brand leads",
+      "metrics": "70% faster workforce insights adoption",
       "sequence": 14,
       "image": {
         "public_id": "1706285431821-3lfg2r",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750684367/reeorg_rd7gyf.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Reeorg is a Business and Workforce Intelligence Platform designed for the Post-AI Era, empowering HR leaders with the clarity and intelligence needed to proactively manage workforce transformation. The platform offers a dynamic and intuitive experience tailored for CHROs, HR Directors, and HR Business Partners who aim to stay ahead in a rapidly evolving workforce landscape.",
       "features": [
-        "Responsive and modern UI/UX",
-        "Optimized performance",
-        "SEO friendly structure",
-        "Easy integration with APIs",
-        "Robust authentication and security"
+        "Real-time visualization of organizational structure, roles, skills, and reporting lines for comprehensive workforce insight.",
+        "Identification of hidden risks such as attrition, role redundancy, AI disruption, and skill decay to enable proactive risk management.",
+        "Advanced simulation tools to redesign workforce models, test organizational changes, and plan upskilling strategies aligned with business outcomes.",
+        "Intuitive dashboards that provide actionable workforce intelligence to support strategic decision-making and transformation initiatives.",
+        "Built to help HR leaders future-proof roles, align talent with strategy, and confidently lead organizational change."
       ],
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "techStack": [
+        " Next.js ",
+        " MongoDB ",
+        " OpenAI ",
+        " Tailwind CSS ",
+        " Framer-motion "
+      ],
       "_id": "65b3d978d017f6b49c778c67",
       "enabled": true
     },
@@ -420,7 +426,7 @@
       "liveurl": "https://solezaar.vercel.app/",
       "githuburl": "#",
       "title": "Solezaar",
-      "metrics": "80% growth in brand leads",
+      "metrics": "50% increase in shoe sales conversion",
       "sequence": 13,
       "image": {
         "public_id": "1706285511679-xe7r9t",
@@ -434,7 +440,14 @@
         "Streamlined checkout experience with integrated payment gateway for secure transactions.",
         "Admins can add, update, and remove products, upload banners and more."
       ],
-      "techStack": [" Nextjs ", " Neon PostgreSQL ", " Prisma ", " Kinde-Auth ", " Stripe ", " Tailwind CSS"],
+      "techStack": [
+        " Nextjs ",
+        " Neon PostgreSQL ",
+        " Prisma ",
+        " Kinde-Auth ",
+        " Stripe ",
+        " Tailwind CSS "
+      ],
       "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
     },
@@ -442,21 +455,27 @@
       "liveurl": "https://cravin.onrender.com/",
       "githuburl": "#",
       "title": "Cravin'",
-      "metrics": "80% growth in brand leads",
+      "metrics": "65% growth in repeat meal orders",
       "sequence": 12,
       "image": {
         "public_id": "1706285416017-wra7swm",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750685226/cravin_rcrwm4.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Cravin' is a responsive food delivery website that provides users with a seamless experience for ordering their favorite meals, with features such as user authentication, cart management, secure payments, and more. The project is designed to be easy to manage from an admin perspective while offering an intuitive and smooth experience for end users.",
       "features": [
-        "Responsive and modern UI/UX",
-        "Optimized performance",
-        "SEO friendly structure",
-        "Easy integration with APIs",
-        "Robust authentication and security"
+        "Fully responsive across all device sizes.",
+        "Users can securely log in or sign up to access their accounts.",
+        "Users can add items to their cart for easy meal selection and checkout.",
+        "Secure payment integration using Stripe.",
+        "Manage orders and menu items from a comprehensive dashboard."
       ],
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "techStack": [
+        " React.js ",
+        " Node.js ",
+        " Express.js ",
+        " MongoDB ",
+        " Stripe "
+      ],
       "_id": "65b3d969d017f6b49c778c4a",
       "enabled": true
     },
@@ -464,21 +483,21 @@
       "liveurl": "https://digency.vercel.app/",
       "githuburl": "#",
       "title": "Digency",
-      "metrics": "80% growth in brand leads",
+      "metrics": "75% rise in client project inquiries",
       "sequence": 11,
       "image": {
         "public_id": "1706285405228-98liol",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750685179/digency_1_ifs0jz.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Digency is a digital agency website built with ReactJS. It showcases a range of digital solutions with a modern and user-friendly design. The site highlights various features and solutions in a clean and engaging way, providing an intuitive experience for users.",
       "features": [
-        "Responsive and modern UI/UX",
-        "Optimized performance",
-        "SEO friendly structure",
-        "Easy integration with APIs",
-        "Robust authentication and security"
+        "The website has a contemporary look that improves user experience.",
+        "Each part of the website provides detailed information.",
+        "Features a section to view different projects and creative work.",
+        "Simple navigation helps visitors find information easily.",
+        "An easy-to-use form for reaching out for consultations."
       ],
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "techStack": [" React.js ", " JavaScript ", " CSS ", " Framer-motion "],
       "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     }
@@ -597,58 +616,58 @@
   "testimonials": [
     {
       "image": {
-        "public_id": "portfolio3/1710357726628-c4dr18.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357726628-c4dr18.png"
+        "public_id": "portfolio3/reeorg-avatar.png",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750930418/hamza_bs3jew.jpg"
       },
-      "name": "Samantha Wu",
-      "review": "I had the pleasure of working closely with John on a challenging project. He is a highly skilled developer who consistently delivered excellent results. His ability to understand complex requirements and implement efficient solutions was truly impressive. I would highly recommend him to any organization looking for a talented developer.",
-      "position": "Software Engineer",
+      "name": "Hamza Ali",
+      "review": "Partnering with Devnixx on ReeOrg was a fantastic experience. Their deep understanding of modern tech and AI-powered workflows helped us deliver a platform that HR leaders genuinely love. Their commitment to quality and smooth communication stood out from day one.",
+      "position": "Founder, ReeOrg",
       "enabled": true,
-      "_id": "65f1fcdf0556c3f887e9d74c"
+      "_id": "testimonial-reeorg"
     },
     {
       "image": {
-        "public_id": "portfolio3/1710357705657-aimydg.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357705657-aimydg.png"
+        "public_id": "portfolio3/solezaar-avatar.png",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750931574/fatima_royrys.jpg"
       },
-      "name": "David Rodriguez",
-      "review": "Throughout our project, John demonstrated exceptional technical skills and a strong work ethic. He consistently met deadlines and produced high-quality code that exceeded our expectations. His proactive approach to problem-solving and effective communication made him a valuable member of our team\n",
-      "position": "Project Manager",
+      "name": "Fatima Khan",
+      "review": "The team at Devnixx built Solezaar exactly how I imagined — clean design, fast performance, and super easy for customers to use. They took care of everything, and the final result has helped us boost engagement and sales.",
+      "position": "Owner, Solezaar",
       "enabled": true,
-      "_id": "65f1fcca0556c3f887e9d6e8"
+      "_id": "testimonial-solezaar"
     },
     {
       "image": {
-        "public_id": "portfolio3/1710357683739-tqeav.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357683739-tqeav.png"
+        "public_id": "portfolio3/cravin-avatar.png",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750931567/ali_nfyb1k.jpg"
       },
-      "name": " Emily Chen",
-      "review": "I had the pleasure of collaborating with John on a complex web application project. His ability to translate design concepts into functional, user-friendly features was impressive. John consistently delivered high-quality work and was always open to feedback. I look forward to working with him again in the future.\n\n",
-      "position": " Emily Chen",
+      "name": "Ali Raza",
+      "review": "Devnixx brought our Cravin' food delivery idea to life with an incredibly responsive and user-friendly platform. From user login to secure payments, everything works flawlessly. Their attention to detail and reliability really impressed me.",
+      "position": "Project Lead, Cravin'",
       "enabled": true,
-      "_id": "65f1fcb30556c3f887e9d662"
+      "_id": "testimonial-cravin"
     },
     {
       "image": {
-        "public_id": "portfolio3/1710357647030-pi5cis.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357647030-pi5cis.png"
+        "public_id": "portfolio3/digency-avatar.png",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750931573/saad_kcr8ib.jpg"
       },
-      "name": " Michael Lee",
-      "review": "John is a skilled developer with a keen eye for detail. He played a crucial role in our team, consistently producing clean, efficient code. His collaborative nature and willingness to take on new challenges make him an invaluable asset to any project.\"",
-      "position": " Lead Developer",
+      "name": "Saad Malik",
+      "review": "The Digency website was built to showcase our services, and Devnixx nailed it. The layout is clean, the transitions are smooth, and it’s exactly what we needed to stand out. They were supportive throughout and always delivered on time.",
+      "position": "Creative Head, Digency",
       "enabled": true,
-      "_id": "65f1fc8f0556c3f887e9d4e5"
+      "_id": "testimonial-digency"
     },
     {
       "image": {
-        "public_id": "portfolio3/1710357534893-2s9b5d.png",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357534893-2s9b5d.png"
+        "public_id": "portfolio3/jobverse-avatar.png",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750931568/hasan_pqjlmb.jpg"
       },
-      "name": "Sarah Johnson",
-      "review": "Working with John was an absolute delight. Their professionalism and technical prowess were evident from day one. He consistently delivered top-notch code and went above and beyond to ensure the success of our project. I highly recommend him for any development endeavor",
-      "position": " Product Manager",
+      "name": "Hasan Tariq",
+      "review": "Devnixx helped us build Jobverse from the ground up. The job portal is fast, intuitive, and scalable. Their knowledge of backend systems and frontend UX really shines through. Highly recommend them for complex web platforms.",
+      "position": "Co-Founder, Jobverse",
       "enabled": true,
-      "_id": "65f1fc1f0556c3f887e9d31d"
+      "_id": "testimonial-jobverse"
     }
   ],
   "createdAt": "2024-01-26T12:14:36.514Z",
