@@ -5,10 +5,10 @@ import { InfiniteScroll } from "./ui/InfiniteScroll";
 const Brands = () => {
   const brands = [
     { id: 1, url: "/reeorg.png", alt: "ReeOrg" },
-    { id: 2, url: "/cravin.png", alt: "Cravin" },
-    { id: 3, url: "/solezaar.png", alt: "Solezaar" },
+    { id: 2, url: "/zamzam.png", alt: "ZamZam" },
+    { id: 3, url: "/cravin.png", alt: "Cravin" },
     { id: 4, url: "/jobverse.png", alt: "Jobverse" },
-    { id: 5, url: "/digency.png", alt: "Digency" },
+    { id: 5, url: "/solezaar.png", alt: "Solezaar" },
   ];
 
   const duplicatedBrands = [...brands, ...brands];
