@@ -399,7 +399,7 @@
       "githuburl": "#",
       "title": "ReeOrg",
       "metrics": "70% faster workforce insights adoption",
-      "sequence": 14,
+      "sequence": 6,
       "image": {
         "public_id": "1706285431821-3lfg2r",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750957641/reeorg-ss_my0w6z.jpg"
@@ -423,32 +423,25 @@
       "enabled": true
     },
     {
-      "liveurl": "https://solezaar.vercel.app/",
+      "liveurl": "https://zamzamind.vercel.app/",
       "githuburl": "#",
-      "title": "Solezaar",
-      "metrics": "50% increase in shoe sales conversion",
-      "sequence": 13,
+      "title": "ZamZam",
+      "metrics": "75% rise in client project inquiries",
+      "sequence": 5,
       "image": {
-        "public_id": "1706285511679-xe7r9t",
-        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750948834/solezaar_czdwiy.png"
+        "public_id": "1706285405228-98liol",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752578933/zamzam_cm6ns8.png"
       },
-      "description": "Solezaar is an online store where you can browse and buy different types of shoes. It's designed to give users a smooth and simple shopping experience.",
+      "description": "Digency is a digital agency website built with ReactJS. It showcases a range of digital solutions with a modern and user-friendly design. The site highlights various features and solutions in a clean and engaging way, providing an intuitive experience for users.",
       "features": [
-        "Browse a wide range of shoes, with detailed product pages including images, descriptions, and prices.",
-        "Add and remove items from the cart, update quantities, and view the total price before checkout.",
-        "Secure login and signup for customers, with a user dashboard to manage orders and preferences.",
-        "Streamlined checkout experience with integrated payment gateway for secure transactions.",
-        "Admins can add, update, and remove products, upload banners and more."
+        "The website has a contemporary look that improves user experience.",
+        "Each part of the website provides detailed information.",
+        "Features a section to view different projects and creative work.",
+        "Simple navigation helps visitors find information easily.",
+        "An easy-to-use form for reaching out for consultations."
       ],
-      "techStack": [
-        " Nextjs ",
-        " Neon PostgreSQL ",
-        " Prisma ",
-        " Kinde-Auth ",
-        " Stripe ",
-        " Tailwind CSS "
-      ],
-      "_id": "65b3d9c8d017f6b49c778ca7",
+      "techStack": [" React.js ", " JavaScript ", " CSS ", " Framer-motion "],
+      "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     },
     {
@@ -456,7 +449,7 @@
       "githuburl": "#",
       "title": "Cravin'",
       "metrics": "65% growth in repeat meal orders",
-      "sequence": 12,
+      "sequence": 4,
       "image": {
         "public_id": "1706285416017-wra7swm",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750685226/cravin_rcrwm4.png"
@@ -480,14 +473,14 @@
       "enabled": true
     },
     {
-      "liveurl": "https://digency.vercel.app/",
+      "liveurl": "https://jobversee.vercel.app/",
       "githuburl": "#",
-      "title": "Digency",
+      "title": "Jobverse",
       "metrics": "75% rise in client project inquiries",
-      "sequence": 11,
+      "sequence": 3,
       "image": {
         "public_id": "1706285405228-98liol",
-        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750685179/digency_1_ifs0jz.jpg"
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752579919/jobverse_dx89m5.png"
       },
       "description": "Digency is a digital agency website built with ReactJS. It showcases a range of digital solutions with a modern and user-friendly design. The site highlights various features and solutions in a clean and engaging way, providing an intuitive experience for users.",
       "features": [
@@ -499,6 +492,64 @@
       ],
       "techStack": [" React.js ", " JavaScript ", " CSS ", " Framer-motion "],
       "_id": "65b3d95dd017f6b49c778c2f",
+      "enabled": true
+    },
+    {
+      "liveurl": "https://bloggify-app.vercel.app/",
+      "githuburl": "#",
+      "title": "Blogify",
+      "metrics": "50% increase in shoe sales conversion",
+      "sequence": 2,
+      "image": {
+        "public_id": "1706285511679-xe7r9t",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752579791/blogify_rtvhiz.png"
+      },
+      "description": "Solezaar is an online store where you can browse and buy different types of shoes. It's designed to give users a smooth and simple shopping experience.",
+      "features": [
+        "Browse a wide range of shoes, with detailed product pages including images, descriptions, and prices.",
+        "Add and remove items from the cart, update quantities, and view the total price before checkout.",
+        "Secure login and signup for customers, with a user dashboard to manage orders and preferences.",
+        "Streamlined checkout experience with integrated payment gateway for secure transactions.",
+        "Admins can add, update, and remove products, upload banners and more."
+      ],
+      "techStack": [
+        " Nextjs ",
+        " Neon PostgreSQL ",
+        " Prisma ",
+        " Kinde-Auth ",
+        " Stripe ",
+        " Tailwind CSS "
+      ],
+      "_id": "65b3d9c8d017f6b49c778ca7",
+      "enabled": true
+    },
+    {
+      "liveurl": "https://solezaar.vercel.app/",
+      "githuburl": "#",
+      "title": "Solezaar",
+      "metrics": "50% increase in shoe sales conversion",
+      "sequence": 1,
+      "image": {
+        "public_id": "1706285511679-xe7r9t",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750948834/solezaar_czdwiy.png"
+      },
+      "description": "Solezaar is an online store where you can browse and buy different types of shoes. It's designed to give users a smooth and simple shopping experience.",
+      "features": [
+        "Browse a wide range of shoes, with detailed product pages including images, descriptions, and prices.",
+        "Add and remove items from the cart, update quantities, and view the total price before checkout.",
+        "Secure login and signup for customers, with a user dashboard to manage orders and preferences.",
+        "Streamlined checkout experience with integrated payment gateway for secure transactions.",
+        "Admins can add, update, and remove products, upload banners and more."
+      ],
+      "techStack": [
+        " Nextjs ",
+        " Neon PostgreSQL ",
+        " Prisma ",
+        " Kinde-Auth ",
+        " Stripe ",
+        " Tailwind CSS "
+      ],
+      "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
     }
   ],
