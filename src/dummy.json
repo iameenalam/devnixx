@@ -395,11 +395,34 @@
   ],
   "projects": [
     {
+      "liveurl": "https://zamzamind.vercel.app/",
+      "githuburl": "#",
+      "title": "ZamZam",
+      "metrics": "75% rise in client project inquiries",
+      "sequence": 6,
+      "image": {
+        "public_id": "1706285405228-98liol",
+        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752578933/zamzam_cm6ns8.png"
+      },
+      "description": "ZamZam is a responsive water management SaaS platform designed to streamline water supply operations, offering a seamless experience for managing customers, vendors, inventory, and payments. The project ensures efficient administration through a user-friendly interface while providing robust tools for tracking water distribution and financial transactions.",
+      "features": [
+        "Optimized for all device sizes, ensuring accessibility for both, the admin and employees.",
+        "Secure login and signup for employees and admin, with role-based permissions for controlled access.",
+        "Easily manage customer profiles and vendor details for streamlined operations.",
+        "Monitor water products with features for stock-in/out, filling stock, and purchase orders.",
+        "Handle sales orders, customer payments, and vendor payments with secure methods and balance tracking.",
+        "Manage areas, products, orders, payments, and employee assignments from an intuitive admin dashboard."
+      ],
+      "techStack": [" Next.js ", " JavaScript ", " MongoDB ", " Tailwind CSS "],
+      "_id": "65b3d95dd017f6b49c778c2f",
+      "enabled": true
+    },
+    {
       "liveurl": "https://reeorg.com",
       "githuburl": "#",
       "title": "ReeOrg",
       "metrics": "70% faster workforce insights adoption",
-      "sequence": 6,
+      "sequence": 5,
       "image": {
         "public_id": "1706285431821-3lfg2r",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1750957641/reeorg-ss_my0w6z.jpg"
@@ -417,31 +440,10 @@
         " MongoDB ",
         " OpenAI ",
         " Tailwind CSS ",
-        " Framer-motion "
+        " Framer-motion ",
+        " Cloudinary "
       ],
       "_id": "65b3d978d017f6b49c778c67",
-      "enabled": true
-    },
-    {
-      "liveurl": "https://zamzamind.vercel.app/",
-      "githuburl": "#",
-      "title": "ZamZam",
-      "metrics": "75% rise in client project inquiries",
-      "sequence": 5,
-      "image": {
-        "public_id": "1706285405228-98liol",
-        "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752578933/zamzam_cm6ns8.png"
-      },
-      "description": "Digency is a digital agency website built with ReactJS. It showcases a range of digital solutions with a modern and user-friendly design. The site highlights various features and solutions in a clean and engaging way, providing an intuitive experience for users.",
-      "features": [
-        "The website has a contemporary look that improves user experience.",
-        "Each part of the website provides detailed information.",
-        "Features a section to view different projects and creative work.",
-        "Simple navigation helps visitors find information easily.",
-        "An easy-to-use form for reaching out for consultations."
-      ],
-      "techStack": [" React.js ", " JavaScript ", " CSS ", " Framer-motion "],
-      "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     },
     {
@@ -482,15 +484,22 @@
         "public_id": "1706285405228-98liol",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752579919/jobverse_dx89m5.png"
       },
-      "description": "Digency is a digital agency website built with ReactJS. It showcases a range of digital solutions with a modern and user-friendly design. The site highlights various features and solutions in a clean and engaging way, providing an intuitive experience for users.",
+      "description": "Jobverse is a responsive job portal application that bridges the gap between job seekers and recruiters. With role-based authentication, users can register either as a job seeker to browse and apply for jobs or as a recruiter to post and manage job listings.",
       "features": [
-        "The website has a contemporary look that improves user experience.",
-        "Each part of the website provides detailed information.",
-        "Features a section to view different projects and creative work.",
-        "Simple navigation helps visitors find information easily.",
-        "An easy-to-use form for reaching out for consultations."
+        "Fully responsive and optimized for all screen sizes.",
+        "Role-based authentication: users can register as either a Job Seeker or a Recruiter.",
+        "Job seekers can browse job listings and apply with ease.",
+        "Recruiters can post, update, and remove job listings.",
+        "Clean and simple interface for a seamless user experience."
       ],
-      "techStack": [" React.js ", " JavaScript ", " CSS ", " Framer-motion "],
+      "techStack": [
+        " Nextjs ",
+        " MongoDB ",
+        " JavaScript ",
+        " Tailwind CSS ",
+        " Framer-motion ",
+        " Cloudinary "
+      ],
       "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     },
@@ -504,21 +513,20 @@
         "public_id": "1706285511679-xe7r9t",
         "url": "https://res.cloudinary.com/dxrm9mg7f/image/upload/v1752579791/blogify_rtvhiz.png"
       },
-      "description": "Solezaar is an online store where you can browse and buy different types of shoes. It's designed to give users a smooth and simple shopping experience.",
+      "description": "Blogify is a responsive blogging platform built for seamless content publishing and management. Designed for personal use, it offers a clean and intuitive interface to write, edit, and manage blog posts.",
       "features": [
-        "Browse a wide range of shoes, with detailed product pages including images, descriptions, and prices.",
-        "Add and remove items from the cart, update quantities, and view the total price before checkout.",
-        "Secure login and signup for customers, with a user dashboard to manage orders and preferences.",
-        "Streamlined checkout experience with integrated payment gateway for secure transactions.",
-        "Admins can add, update, and remove products, upload banners and more."
+        "Fully responsive and optimized for all device sizes.",
+        "Personal admin dashboard to create, edit, and delete blog posts.",
+        "Simple view count feature to see how many times each post has been viewed.",
+        "Reader subscription feature to build and engage an audience.",
+        "Clean and minimalist design focused on readability and ease of use."
       ],
       "techStack": [
         " Nextjs ",
-        " Neon PostgreSQL ",
-        " Prisma ",
-        " Kinde-Auth ",
-        " Stripe ",
-        " Tailwind CSS "
+        " MongoDB ",
+        " JavaScript ",
+        " Tailwind CSS ",
+        " Cloudinary "
       ],
       "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
